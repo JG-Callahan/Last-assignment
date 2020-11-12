@@ -1,0 +1,55 @@
+html {
+	color: white;
+	background-color: black;
+	font-family: Menlo;
+	font-size: 14px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	border: 10px solid white;
+}
+
+#zen-summary {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+h2 {
+	text-decoration: underline;
+	color: #F52343;
+	font-size: 30px;
+	animation-name: move;
+	animation-duration: 10s;
+	position: relative;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+h3 {
+	font-size: 20px;
+	color: #23F5B9;
+	border-bottom: 1px solid #23F5B9;
+}
+
+a {
+	color: #23B2F5;
+}
+
+ul {
+	margin-left: 50px;
+}
+
+li {
+	color: #f700d9;
+}
+
+@keyframes move {
+	100% {
+	transform: translatex(700px)
+}
+}
